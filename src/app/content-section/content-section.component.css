@@ -1,0 +1,175 @@
+.section {
+  width: 96vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  padding-left: 1vw;
+  border-right: 1px solid #cccccc;
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+  padding-right: 0.3vw;
+  font-size: 22px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+.customer-profile {
+  padding-left: 1vw;
+  color: #000000;
+  padding-top: 0.4vw;
+  flex-grow: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.customer-profile h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.button-right button {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.button-right {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.section-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 98%;
+  margin: 1vw;
+  border-radius: 5px;
+}
+
+.sectio-data {
+  width: 30%;
+  padding: 0.4vw;
+}
+
+.section-information {
+  display: flex;
+  width: 100%;
+  background-color: #cccccc;
+  border-radius: 5px;
+}
+
+.section-data-desc {
+  padding: 0.4vw;
+  width: 50%;
+}
+
+.product-information-cart {
+  width: 100%;
+}
+
+.items {
+  border-bottom: 1px solid #cccccc;
+  padding-top: 1.5vw;
+  padding-bottom: 0.5vw;
+}
+
+.items ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items ul li a {
+  text-decoration: none;
+  border-bottom: 2px solid #3371b7;
+  color: #3371b7;
+  padding-bottom: 9px;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1vw;
+}
+
+.item-list-1,
+.item-list-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.image-box {
+  border: 1px solid #cccccc;
+  height: 5vw;
+  width: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.des-heading {
+  color: #3371b7;
+  padding-bottom: 0.3vw;
+}
+
+.image-des {
+  padding-left: 0.5vw;
+}
+
+/* tab view */
+
+@media only screen and (max-width: 760px) {
+  .items-list {
+    margin: 2vw;
+    padding: 1vw;
+  }
+  .items {
+    padding-bottom: 6px;
+  }
+  .image-des {
+    padding-left: 2vw;
+    font-size: 1.2vw;
+  }
+  .image-box img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* mobile view */
+
+@media only screen and (max-width: 480px) {
+  .image-box img {
+    width: 20px;
+    height: 20px;
+  }
+  .section-information{
+    font-size: 2vw;
+  }
+}

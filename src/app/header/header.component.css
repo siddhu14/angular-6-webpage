@@ -1,0 +1,23 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.left-area{
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    flex-grow: 1;
+}
+.right-area{
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+}
